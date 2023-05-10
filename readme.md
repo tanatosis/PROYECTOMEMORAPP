@@ -3,11 +3,13 @@
 # Proyecto: MEMOR APP NODE JS API ARDUINO
 # Para iniciar el proyecto en el terminal escribir : npm i express pg bcrypt  
 # Para obtener conectar el arduino : npm i johnny-five
+# La base de datos postgres esta en linea https://apimemorapp-production.up.railway.app
 
 # Index.js
 
 - // `Linea 1` : Importando el módulo express
 - // `Linea 2` : Importando el módulo HBS
+- // `Linea 8` : Constante para conectarse a la API online
 - // `Linea 9` : Importando el módulo johnny-five
 - // `Linea 5` : Importa la biblioteca method-override que se utiliza para permitir que los métodos HTTP PUT y DELETE se utilicen en formularios HTML.
 - // `Linea 7` : Importa Brypt para encriptar las contraseñas

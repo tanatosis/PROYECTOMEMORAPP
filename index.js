@@ -5,7 +5,7 @@ const hbsHelpers = require('./helpers');
 const path = require('path');
 const http = require('http');
 const socketIo = require('socket.io');
-const apiUrl = 'https://apimemorapp-production.up.railway.app'
+const apiUrl = 'https://apimemorapp-production.up.railway.app' // constante para conectarse a la API online
 
 const five = require('johnny-five');
 var methodOverride = require('method-override') //Importa la biblioteca method-override que se utiliza para permitir que los métodos HTTP PUT y DELETE se utilicen en formularios HTML.
